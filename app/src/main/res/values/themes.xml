@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MediRecord" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/sobre_primario</item>
+        <item name="colorPrimaryContainer">@color/primario_contenedor</item>
+        <item name="colorOnPrimaryContainer">@color/texto_principal</item>
+        <item name="colorSecondary">@color/secundario</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="colorSurface">@color/superficie</item>
+        <item name="colorOnSurface">@color/texto_principal</item>
+        <item name="colorOnSurfaceVariant">@color/texto_secundario</item>
+        <item name="android:statusBarColor">@color/primario</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Toolbar.MediRecord" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/primario</item>
+        <item name="titleTextColor">@color/sobre_primario</item>
+        <item name="navigationIconTint">@color/sobre_primario</item>
+    </style>
+
+    <!-- Botones grandes: mínimo 56dp de alto, texto 18sp. -->
+    <style name="Boton.Grande" parent="Widget.Material3.Button">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Boton.Grande.Contorno" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Boton.Grande.Texto" parent="Widget.Material3.Button.TextButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Texto.Titulo" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/texto_principal</item>
+    </style>
+
+    <style name="Texto.Cuerpo" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/texto_secundario</item>
+    </style>
+</resources>

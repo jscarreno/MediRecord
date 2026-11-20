@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.edu.umb.medirecord.data.PersistenciaTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-20T19:41:29.464Z" hostname="vm" time="5.208">
+  <properties/>
+  <testcase name="guardar_creaMedicamentoConSusHorarios_yProgramaAlarmas" classname="co.edu.umb.medirecord.data.PersistenciaTest" time="4.655"/>
+  <testcase name="tomasDelDia_muestraPendientesYRegistradas_ordenadasPorHora" classname="co.edu.umb.medirecord.data.PersistenciaTest" time="0.055"/>
+  <testcase name="registrarDosVecesElMismoDia_noDuplica_yQuedaElUltimoEstado" classname="co.edu.umb.medirecord.data.PersistenciaTest" time="0.087"/>
+  <testcase name="eliminarMedicamento_borraEnCascadaHorariosYTomas" classname="co.edu.umb.medirecord.data.PersistenciaTest" time="0.116"/>
+  <testcase name="deshacer_eliminaLaToma" classname="co.edu.umb.medirecord.data.PersistenciaTest" time="0.058"/>
+  <testcase name="resumen_cuentaTomadasYOmitidasDesdeUnaFecha" classname="co.edu.umb.medirecord.data.PersistenciaTest" time="0.075"/>
+  <testcase name="editar_conservaHorariosExistentes_yNoPierdeHistorial" classname="co.edu.umb.medirecord.data.PersistenciaTest" time="0.095"/>
+  <testcase name="guardar_nombreDuplicadoSinImportarMayusculas_esRechazado" classname="co.edu.umb.medirecord.data.PersistenciaTest" time="0.058"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

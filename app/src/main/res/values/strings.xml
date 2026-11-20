@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediRecord</string>
+
+    <string name="titulo_hoy">Hoy</string>
+    <string name="titulo_medicamentos">Mis medicamentos</string>
+    <string name="titulo_historial">Historial</string>
+    <string name="titulo_nuevo">Nuevo medicamento</string>
+    <string name="titulo_editar">Editar medicamento</string>
+
+    <string name="nav_hoy">Hoy</string>
+    <string name="nav_medicamentos">Medicamentos</string>
+    <string name="nav_historial">Historial</string>
+
+    <!-- Hoy -->
+    <string name="hoy_fecha">Hoy, %1$s</string>
+    <string name="hoy_progreso">%1$d de %2$d tomas registradas</string>
+    <string name="hoy_vacio">No tienes medicamentos programados.\n\nVe a la pestaña «Medicamentos» y toca «Agregar medicamento».</string>
+    <string name="resumen_sin_datos">Aún no hay tomas registradas para calcular tu cumplimiento.</string>
+    <string name="resumen_semana">Cumplimiento últimos 7 días: %1$d%% (%2$d de %3$d)</string>
+    <string name="resumen_mes">Últimos 30 días: %1$d%% de cumplimiento · %2$d tomadas · %3$d omitidas</string>
+    <string name="notif_desactivadas">Las notificaciones están desactivadas. Sin ellas no recibirás los recordatorios.</string>
+    <string name="activar">Activar</string>
+
+    <string name="estado_pendiente">Pendiente</string>
+    <string name="estado_atrasada">Atrasada</string>
+    <string name="estado_omitida">Omitida</string>
+    <string name="estado_tomada_a">✓ Tomada a las %1$s</string>
+    <string name="accion_tomar">Ya la tomé</string>
+    <string name="accion_omitir">Omitir</string>
+    <string name="accion_deshacer">Deshacer</string>
+    <string name="dosis_tipo">%1$s · %2$s</string>
+    <string name="nombre_dosis">%1$s · %2$s</string>
+
+    <!-- Medicamentos -->
+    <string name="medicamentos_vacio">Todavía no has agregado medicamentos.\n\nToca «Agregar medicamento» para empezar.</string>
+    <string name="agregar_medicamento">Agregar medicamento</string>
+    <string name="horarios_lista">Horarios: %1$s</string>
+
+    <!-- Formulario -->
+    <string name="campo_nombre">Nombre del medicamento</string>
+    <string name="campo_nombre_ayuda">Ej: Losartán</string>
+    <string name="campo_dosis">Dosis</string>
+    <string name="campo_dosis_ayuda">Ej: 50 mg, 10 ml, 2 gotas</string>
+    <string name="campo_tipo">Presentación</string>
+    <string name="campo_notas">Notas (opcional)</string>
+    <string name="campo_notas_ayuda">Ej: tomar después del desayuno</string>
+    <string name="horarios">Horarios del día</string>
+    <string name="sin_horarios">Aún no hay horarios. Agrega al menos uno.</string>
+    <string name="agregar_horario">Agregar horario</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminar_titulo">¿Eliminar medicamento?</string>
+    <string name="eliminar_mensaje">Se eliminará «%1$s», sus recordatorios y su historial. Esta acción no se puede deshacer.</string>
+
+    <string-array name="tipos_medicamento">
+        <item>Pastilla</item>
+        <item>Cápsula</item>
+        <item>Jarabe</item>
+        <item>Gotas</item>
+        <item>Inyección</item>
+        <item>Inhalador</item>
+        <item>Crema</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!-- Errores de validación -->
+    <string name="err_nombre_vacio">Escribe el nombre del medicamento</string>
+    <string name="err_nombre_corto">El nombre debe tener al menos 2 letras</string>
+    <string name="err_nombre_largo">Máximo %1$d caracteres</string>
+    <string name="err_nombre_duplicado">Ya tienes un medicamento con este nombre</string>
+    <string name="err_dosis_vacia">Escribe la dosis (ej: 50 mg)</string>
+    <string name="err_dosis_larga">Máximo %1$d caracteres</string>
+    <string name="err_tipo_vacio">Elige la presentación</string>
+    <string name="err_sin_horarios">Agrega al menos un horario</string>
+    <string name="err_horario_duplicado">Ese horario ya está agregado</string>
+    <string name="err_demasiados_horarios">Máximo %1$d horarios por medicamento</string>
+
+    <string name="msg_guardado">Medicamento guardado. Te recordaremos a tiempo.</string>
+    <string name="msg_eliminado">Medicamento eliminado</string>
+    <string name="msg_error_bd">No se pudo completar la operación. Inténtalo de nuevo.</string>
+    <string name="msg_no_encontrado">Este medicamento ya no existe.</string>
+
+    <!-- Historial -->
+    <string name="historial_vacio">Aquí aparecerán las tomas que marques como tomadas u omitidas.</string>
+    <string name="historial_fecha_hora">%1$s · %2$s</string>
+
+    <!-- Notificaciones -->
+    <string name="canal_nombre">Recordatorios de medicamentos</string>
+    <string name="canal_descripcion">Avisos a la hora de cada toma</string>
+    <string name="notif_titulo">Hora de tu medicamento</string>
+    <string name="notif_texto">%1$s — %2$s (%3$s)</string>
+    <string name="accion_tomada">Ya la tomé</string>
+    <string name="accion_posponer">Posponer 10 min</string>
+
+    <!-- Permisos y menú -->
+    <string name="permiso_titulo">Permitir recordatorios</string>
+    <string name="permiso_explicacion">MediRecord necesita mostrar notificaciones para avisarte cuando sea hora de tomar cada medicamento.</string>
+    <string name="permitir">Permitir</string>
+    <string name="ahora_no">Ahora no</string>
+    <string name="menu_alarmas_exactas">Activar recordatorios puntuales</string>
+    <string name="menu_acerca">Acerca de</string>
+    <string name="acerca_texto">MediRecord v1.0.0\nRecordatorio de medicamentos.\nProyecto final · Computación Móvil · UMB 2026-2.\n\nEsta app no reemplaza la indicación de tu médico.</string>
+
+    <!-- Accesibilidad (TalkBack) -->
+    <string name="cd_toma">%1$s, %2$s, %3$s, %4$s</string>
+    <string name="cd_tomar">Marcar %1$s de las %2$s como tomada</string>
+    <string name="cd_omitir">Marcar %1$s de las %2$s como omitida</string>
+    <string name="cd_medicamento">%1$s, %2$s, horarios %3$s. Toca para editar.</string>
+    <string name="cd_historial">%1$s a las %2$s, %3$s, %4$s</string>
+    <string name="cd_quitar_horario">Quitar horario de las %1$s</string>
+</resources>

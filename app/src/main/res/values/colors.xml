@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de alto contraste: todos los textos cumplen ≥ 4.5:1 sobre blanco (WCAG AA). -->
+    <color name="primario">#00574B</color>
+    <color name="primario_contenedor">#B2DFDB</color>
+    <color name="sobre_primario">#FFFFFF</color>
+    <color name="secundario">#0D47A1</color>
+    <color name="fondo">#F7F9F9</color>
+    <color name="superficie">#FFFFFF</color>
+    <color name="texto_principal">#1A1C1C</color>
+    <color name="texto_secundario">#424848</color>
+    <color name="error">#B3261E</color>
+    <color name="banner_fondo">#FFF4E5</color>
+
+    <color name="estado_tomada">#1B5E20</color>
+    <color name="estado_omitida">#4A4A4A</color>
+    <color name="estado_atrasada">#B71C1C</color>
+    <color name="estado_pendiente">#0D47A1</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.edu.umb.medirecord.domain.HoraUtilsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-20T19:41:34.684Z" hostname="vm" time="0.008">
+  <properties/>
+  <testcase name="formatear_agregaCerosALaIzquierda" classname="co.edu.umb.medirecord.domain.HoraUtilsTest" time="0.001"/>
+  <testcase name="proximoDisparo_horaYaPasada_programaManana" classname="co.edu.umb.medirecord.domain.HoraUtilsTest" time="0.0"/>
+  <testcase name="proximoDisparo_exactamenteAhora_programaManana" classname="co.edu.umb.medirecord.domain.HoraUtilsTest" time="0.001"/>
+  <testcase name="haceDias_calculaFechaIso" classname="co.edu.umb.medirecord.domain.HoraUtilsTest" time="0.0"/>
+  <testcase name="fechaLegible_convierteFormato_yToleraTextoInvalido" classname="co.edu.umb.medirecord.domain.HoraUtilsTest" time="0.002"/>
+  <testcase name="proximoDisparo_horaFuturaHoy_programaHoy" classname="co.edu.umb.medirecord.domain.HoraUtilsTest" time="0.001"/>
+  <testcase name="formatear_rechazaMinutosFueraDeRango" classname="co.edu.umb.medirecord.domain.HoraUtilsTest" time="0.0"/>
+  <testcase name="proximoDisparo_finDeMes_pasaAlMesSiguiente" classname="co.edu.umb.medirecord.domain.HoraUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

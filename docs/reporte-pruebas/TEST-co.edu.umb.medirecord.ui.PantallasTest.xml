@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.edu.umb.medirecord.ui.PantallasTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-20T19:41:34.721Z" hostname="vm" time="27.48">
+  <properties/>
+  <testcase name="pantallaHoy_muestraTomasDelDia_yPermiteMarcarTomada" classname="co.edu.umb.medirecord.ui.PantallasTest" time="9.352"/>
+  <testcase name="formulario_vacio_muestraErroresDeValidacion" classname="co.edu.umb.medirecord.ui.PantallasTest" time="4.142"/>
+  <testcase name="formulario_edicion_cargaDatos_yGuarda" classname="co.edu.umb.medirecord.ui.PantallasTest" time="3.449"/>
+  <testcase name="estadosVacios_seMuestranSinDatos" classname="co.edu.umb.medirecord.ui.PantallasTest" time="1.793"/>
+  <testcase name="pantallaMedicamentos_eHistorial_muestranDatos" classname="co.edu.umb.medirecord.ui.PantallasTest" time="5.102"/>
+  <testcase name="formulario_rotacion_conservaHorariosYTexto" classname="co.edu.umb.medirecord.ui.PantallasTest" time="3.64"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

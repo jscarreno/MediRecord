@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo_hoy">Today</string>
+    <string name="titulo_medicamentos">My medications</string>
+    <string name="titulo_historial">History</string>
+    <string name="titulo_nuevo">New medication</string>
+    <string name="titulo_editar">Edit medication</string>
+
+    <string name="nav_hoy">Today</string>
+    <string name="nav_medicamentos">Medications</string>
+    <string name="nav_historial">History</string>
+
+    <string name="hoy_fecha">Today, %1$s</string>
+    <string name="hoy_progreso">%1$d of %2$d doses logged</string>
+    <string name="hoy_vacio">You have no scheduled medications.\n\nGo to the «Medications» tab and tap «Add medication».</string>
+    <string name="resumen_sin_datos">No doses logged yet to calculate your adherence.</string>
+    <string name="resumen_semana">Adherence, last 7 days: %1$d%% (%2$d of %3$d)</string>
+    <string name="resumen_mes">Last 30 days: %1$d%% adherence · %2$d taken · %3$d skipped</string>
+    <string name="notif_desactivadas">Notifications are turned off. Without them you will not get reminders.</string>
+    <string name="activar">Turn on</string>
+
+    <string name="estado_pendiente">Pending</string>
+    <string name="estado_atrasada">Overdue</string>
+    <string name="estado_omitida">Skipped</string>
+    <string name="estado_tomada_a">✓ Taken at %1$s</string>
+    <string name="accion_tomar">I took it</string>
+    <string name="accion_omitir">Skip</string>
+    <string name="accion_deshacer">Undo</string>
+
+    <string name="medicamentos_vacio">You have not added any medications yet.\n\nTap «Add medication» to start.</string>
+    <string name="agregar_medicamento">Add medication</string>
+    <string name="horarios_lista">Times: %1$s</string>
+
+    <string name="campo_nombre">Medication name</string>
+    <string name="campo_nombre_ayuda">E.g. Losartan</string>
+    <string name="campo_dosis">Dose</string>
+    <string name="campo_dosis_ayuda">E.g. 50 mg, 10 ml, 2 drops</string>
+    <string name="campo_tipo">Form</string>
+    <string name="campo_notas">Notes (optional)</string>
+    <string name="campo_notas_ayuda">E.g. take after breakfast</string>
+    <string name="horarios">Times of day</string>
+    <string name="sin_horarios">No times yet. Add at least one.</string>
+    <string name="agregar_horario">Add time</string>
+    <string name="guardar">Save</string>
+    <string name="eliminar">Delete</string>
+    <string name="cancelar">Cancel</string>
+    <string name="eliminar_titulo">Delete medication?</string>
+    <string name="eliminar_mensaje">«%1$s», its reminders and its history will be deleted. This cannot be undone.</string>
+
+    <string-array name="tipos_medicamento">
+        <item>Tablet</item>
+        <item>Capsule</item>
+        <item>Syrup</item>
+        <item>Drops</item>
+        <item>Injection</item>
+        <item>Inhaler</item>
+        <item>Cream</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="err_nombre_vacio">Enter the medication name</string>
+    <string name="err_nombre_corto">The name must have at least 2 letters</string>
+    <string name="err_nombre_largo">Maximum %1$d characters</string>
+    <string name="err_nombre_duplicado">You already have a medication with this name</string>
+    <string name="err_dosis_vacia">Enter the dose (e.g. 50 mg)</string>
+    <string name="err_dosis_larga">Maximum %1$d characters</string>
+    <string name="err_tipo_vacio">Choose the form</string>
+    <string name="err_sin_horarios">Add at least one time</string>
+    <string name="err_horario_duplicado">That time is already added</string>
+    <string name="err_demasiados_horarios">Maximum %1$d times per medication</string>
+
+    <string name="msg_guardado">Medication saved. We will remind you on time.</string>
+    <string name="msg_eliminado">Medication deleted</string>
+    <string name="msg_error_bd">The operation could not be completed. Try again.</string>
+    <string name="msg_no_encontrado">This medication no longer exists.</string>
+
+    <string name="historial_vacio">Doses you mark as taken or skipped will appear here.</string>
+
+    <string name="canal_nombre">Medication reminders</string>
+    <string name="canal_descripcion">Alerts at the time of each dose</string>
+    <string name="notif_titulo">Time for your medication</string>
+    <string name="accion_tomada">I took it</string>
+    <string name="accion_posponer">Snooze 10 min</string>
+
+    <string name="permiso_titulo">Allow reminders</string>
+    <string name="permiso_explicacion">MediRecord needs to show notifications to tell you when it is time for each medication.</string>
+    <string name="permitir">Allow</string>
+    <string name="ahora_no">Not now</string>
+    <string name="menu_alarmas_exactas">Turn on on-time reminders</string>
+    <string name="menu_acerca">About</string>
+    <string name="acerca_texto">MediRecord v1.0.0\nMedication reminder.\nFinal project · Mobile Computing · UMB 2026-2.\n\nThis app does not replace your doctor\'s instructions.</string>
+
+    <string name="cd_tomar">Mark %1$s at %2$s as taken</string>
+    <string name="cd_omitir">Mark %1$s at %2$s as skipped</string>
+    <string name="cd_medicamento">%1$s, %2$s, times %3$s. Tap to edit.</string>
+    <string name="cd_historial">%1$s at %2$s, %3$s, %4$s</string>
+    <string name="cd_quitar_horario">Remove %1$s time</string>
+</resources>
