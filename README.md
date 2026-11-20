@@ -1,4 +1,4 @@
-# 💊 MediRecord
+# MediRecord
 
 **Recordatorio de medicamentos para Android, pensado para adultos mayores y sus cuidadores.**
 
@@ -12,15 +12,15 @@ Proyecto final de **Desarrollo de Aplicaciones Móviles (Computación Móvil)**,
 
 ---
 
-## 📌 El problema
+## Problematica
 
 Las personas que toman varios medicamentos al día, en especial adultos mayores con enfermedades crónicas, **olvidan dosis o las repiten** porque no recuerdan si ya las tomaron. Una alarma común del celular no dice qué medicamento toca ni guarda un registro.
 
-## ✅ La solución
+## Solución
 
 MediRecord avisa a la hora de cada toma, deja responder desde la misma notificación y guarda un historial que muestra cuánto se ha cumplido el tratamiento. Funciona **100 % sin internet**.
 
-## 📱 Capturas
+## Capturas
 
 | Hoy | Mis medicamentos | Historial |
 |:---:|:---:|:---:|
@@ -32,7 +32,7 @@ MediRecord avisa a la hora de cada toma, deja responder desde la misma notificac
 
 > Capturas generadas automáticamente por las pruebas de interfaz (Robolectric, pantalla de 411×891 dp).
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Gestión de medicamentos (CRUD):** nombre, dosis, presentación, notas y de 1 a 8 horarios por día.
 - **Pantalla Hoy:** tomas del día ordenadas por hora con su estado (pendiente, atrasada, tomada u omitida) y botones *Ya la tomé*, *Omitir* y *Deshacer*.
@@ -45,7 +45,7 @@ MediRecord avisa a la hora de cada toma, deja responder desde la misma notificac
   - descripciones para TalkBack.
 - **Idiomas:** 🇨🇴 español (por defecto) y 🇺🇸 inglés.
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 **MVVM + Repository**, con una capa de dominio de lógica pura:
 
@@ -64,7 +64,7 @@ MediRecord avisa a la hora de cada toma, deja responder desde la misma notificac
 - El índice único `(horarioId, fecha)` impide registrar la misma toma dos veces.
 
 <details>
-<summary>📂 Estructura del código</summary>
+<summary>Estructura del código</summary>
 
 ```
 app/src/main/java/co/edu/umb/medirecord/
@@ -82,7 +82,7 @@ app/src/main/java/co/edu/umb/medirecord/
 ```
 </details>
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 | | |
 |---|---|
@@ -94,7 +94,7 @@ app/src/main/java/co/edu/umb/medirecord/
 | Arquitectura | AndroidX Lifecycle (ViewModel, LiveData) 2.7 |
 | Pruebas | JUnit 4.13.2 · Robolectric 4.13 |
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 
 **Con Android Studio**
 1. Clonar el repositorio:
@@ -115,7 +115,7 @@ adb install MediRecord-v1.0.0-debug.apk
 
 > La app no tiene usuarios ni contraseñas.
 
-## 🧪 Pruebas
+## Pruebas
 
 ```bash
 ./gradlew testDebugUnitTest
@@ -128,7 +128,7 @@ adb install MediRecord-v1.0.0-debug.apk
 | `AdherenciaCalculatorTest` | Porcentaje de cumplimiento | 4 |
 | `PersistenciaTest` | Room: CRUD, borrado en cascada, duplicados, alarmas programadas | 8 |
 | `PantallasTest` | Interfaz: flujos, errores, rotación y capturas de pantalla | 6 |
-| **Total** | | **36 ✅** |
+| **Total** | | **36** |
 
 El reporte HTML queda en `app/build/reports/tests/testDebugUnitTest/index.html`. Hay una copia en `docs/reporte-pruebas/`.
 
@@ -144,20 +144,18 @@ reprogramarTodo ms=…
 
 Para CPU y memoria, usar **Android Studio → Profiler**.
 
-## ⚠️ Limitaciones conocidas
+## Limitaciones conocidas
 
 - No hay sincronización en la nube ni una cuenta para el cuidador.
 - Al eliminar un medicamento también se borra su historial.
 - La presentación (Pastilla, Jarabe…) se guarda en el idioma activo.
 - Sin el permiso de alarmas exactas (Android 12+), el aviso puede llegar hasta 1 minuto tarde.
 
-## 👥 Equipo — *Papus programadores*
+## Equipo 
 
 - Johan Santiago Carreño Navarro
 - Oscar Andrés Ortiz Mora
 
 Docente: Robert Osorio Torres · Universidad Manuela Beltrán · 2026-2
 
----
 
-<sub>⚕️ MediRecord es un proyecto académico y no reemplaza las indicaciones de un profesional de la salud.</sub>
